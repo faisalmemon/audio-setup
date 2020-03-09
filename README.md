@@ -27,7 +27,7 @@ I already had a cheap set of headphones that I'd be plugging into to monitor my 
 It seems that the Microphone and Audio/MIDI interface are so good, I don't probably need the "Bonnette" to cover the Microphone.
 I went for the Dynamic Microphone route because my audio environment is not great, and I have a medium noisy mechanical keyboard so I didn't want a Condenser Microphone like the Blue Yeti which could pick that up.
 
-# TASCAM Control Settings and Wiring
+## TASCAM Control Settings and Wiring
 
 - IN1 -> Microphone
 - +48V switch to Off (it means do not supply phantom power to the Microphone as some Mics need a power source)

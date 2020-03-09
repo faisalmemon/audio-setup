@@ -27,13 +27,26 @@ I already had a cheap set of headphones that I'd be plugging into to monitor my 
 It seems that the Microphone and Audio/MIDI interface are so good, I don't probably need the "Bonnette" to cover the Microphone.
 I went for the Dynamic Microphone route because my audio environment is not great, and I have a medium noisy mechanical keyboard so I didn't want a Condenser Microphone like the Blue Yeti which could pick that up.
 
+# TASCAM Control Settings and Wiring
+
+- IN1 -> Microphone
+- +48V switch to Off (it means do not supply phantom power to the Microphone as some Mics need a power source)
+- IN1 Gain = Almost fully turned up as it is so good, it hardly flicks on the Red Peak indicator
+- MIC/Line = MIC (left position) because the Mic is not an Instrument with high impedence
+- IN2 settings ignored as it is not used
+- Monitor balance central = not used by me right now
+- Line Out central setting = not used by me right now
+- USB connector at the back = plugged into my iMac
+
+The TASCAM control panel software can be ignored because it just adjusts the experience for the monitor headphones connected to the MIDI box, not the computer signal.
+
 ## Software
 
-I had a colleague who recommended the [Screen Flick](https://www.araelium.com) video and Audio capture software.  It is basic to use but just about powerful enough to deliver the needed functionality and is very flexible in terms of allowing you to defer decisions about mouse shown/hidden, keyboard shown/hidden until final export.
+I had a colleague who recommended the [Screen Flick](https://www.araelium.com) video and Audio capture software.  It is basic to use but powerful enough to deliver the needed functionality, and is very flexible in terms of allowing you to defer decisions about mouse shown/hidden, keyboard shown/hidden until final export.
 
-## Mono saved as stereo tracks
+## Mono saved as Stereo tracks
 
-This puzzled me at first.  My Microphone records in Mono, my Audio/MIDI box provides two channels to the computer but only one input (IN1) is used connected to the Mic.
+My Microphone records in Mono, my Audio/MIDI box provides two channels to the computer but only one input (IN1) is used connected to the Mic.
 I found two ways to get the captured audio presented as stereo to the listener.
 
 The preferred option was to use the Record Microphone settings in the following screenshot.  These show recording from my MIDI box, called US-2x2, and using its Channel 1 (which equates to IN1 jack on the front) twice, once for the Left ear, once for the Right ear.

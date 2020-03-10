@@ -37,7 +37,7 @@ From reading the manual, [TASCAM US-2x2 USB Audio/MIDI Interface Reference Manua
 Port | Connection
 -- | --
 Front IN1 | Microphone
-Back USB | iMac 
+Back USB | iMac
 
 ### Control knob settings
 
@@ -77,7 +77,7 @@ Udemy is the main place I want to post videos.  They have an [Audio Video Specif
 Attribute | Setting | Comment
 --- | --- | ---
 Quality | Best | If available
-Codec | H.264, HEVC, ProRes 
+Codec | H.264, HEVC, ProRes
 Resolution | 1920x1080 | Or better
 Minimum Resolution | 1280x720 | Resolutions lower are rejected
 Aspect Ratio | 16:9
@@ -92,17 +92,17 @@ Audio Track | Required
 Audio Codec | AAC (256 kb/s or better) or PCM
 Audio Channels | 2 (Stereo)
 
-#### Bitrate recommendations
+### Bitrate recommendations
 
 Format | Resolution | Rate
---- | ---
+--- | --- | ---
 H.264 | 1920x1080 | 10 Mb/s
 H.264 | 1280x720 | 5 Mb/s
 HEVC | 1920x1080 | 6 Mb/s
 HEVC | 1280x720 | 3 Mb/s
 ProRes | Automatic
 
-#### Other requirements
+### Other requirements
 
 - Multimedia Container: MP4 or MOV
 - Maximum File Size: 4 GB

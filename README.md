@@ -9,6 +9,8 @@ noticed that there is a lot of basic knowledge that is assumed in the manuals an
 to be in a position to be able to switch computer and re-install the Operating System without losing too much configuration
 nuances of my old setup.
 
+My computer is an iMac with a mid-range specification suitable for software development (16GB RAM, 1TB Storage, 5K screen).
+
 ## Resources
 
 My first port of call was a Podcasting guide.  I used the excellent guide done by Marco Arment, [Podcasting Microphones Mega-Review](https://marco.org/podcasting-microphones)
@@ -31,13 +33,13 @@ I went for the Dynamic Microphone route because my audio environment is not grea
 
 From reading the manual, [TASCAM US-2x2 USB Audio/MIDI Interface Reference Manual](./manuals/US-2x2_US-4x4_RM_vF.pdf)
 
-## Physical connections
+### Physical connections
 Port | Connection
 -- | --
 Front IN1 | Microphone
 Back USB | iMac 
 
-## Control knob settings
+### Control knob settings
 
 Control | Setting | Comment
 --- | --- | ---

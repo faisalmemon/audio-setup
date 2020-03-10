@@ -64,6 +64,10 @@ The preferred option was to use the Record Microphone settings in the following 
 
 ![Screen Flick Audio Settings](./recordChannelSettings.png)
 
+However, in order to expose such a setting we need to enable an advanced setting.
+
+![Show Channel Mappings](./showChannelMappings.png)
+
 If that wasn't done, there is a quick way to fix it.  By using [Handbrake video transcription software](https://handbrake.fr) it is possible to use the same audio track twice.  So Track 0 feeds into Left Only ear, and Right Only ear.
 
 ![Handbrake Audio Settings](./handbrakeAudioSettings.png)

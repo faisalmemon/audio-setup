@@ -111,3 +111,13 @@ ProRes | Automatic
 - Multimedia Container: MP4 or MOV
 - Maximum File Size: 4 GB
 - Maximum Duration: 4 Hours
+
+## Disk Management
+
+I am using a Samsung T5 512GB disk drive for half of my storage, and the rest is my internal 512GB drive.  I tend to migrate stuff periodically off the internal drive to the Samsung drive if it is portable.  Some software wants to be on the internal drive, or it wants to only install to the internal drive before being relocated.
+
+### Screen flick raw movies
+
+I place raw movies created during recording onto my Samsung drive.
+
+![screenFlickRawMovieStorage](./screenFlickRawMovieStorage.png)

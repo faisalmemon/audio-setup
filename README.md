@@ -70,11 +70,9 @@ If that wasn't done, there is a quick way to fix it.  By using [Handbrake video 
 
 ## Video Requirements
 
-Udemy is the main place I want to post videos.  They have a [Video Specification](https://support.udemy.com/hc/en-us/articles/229232767-Video-Standards-and-Choosing-a-Camera) which is summarised as:
+Udemy is the main place I want to post videos.  They have an [Audio Video Specification](https://support.udemy.com/hc/en-us/articles/229232767-Video-Standards-and-Choosing-a-Camera) which is summarised as:
 
-### Udemy Video Specification
-
-#### Video settings
+### Video settings
 
 Attribute | Setting | Comment
 --- | --- | ---
@@ -86,22 +84,22 @@ Aspect Ratio | 16:9
 Picture Orientation | Landscape | Cannot be Portrait
 Framerate | 25 to 60 fps | Currently all outputs are resampled to 30 fps
 
-#### Audio settings
+### Audio settings
 
 Attribute | Setting
 --- | ---
-Audio Track | Required 
+Audio Track | Required
 Audio Codec | AAC (256 kb/s or better) or PCM
 Audio Channels | 2 (Stereo)
 
 #### Bitrate recommendations
 
-Format | Resolution | Rate 
+Format | Resolution | Rate
 --- | ---
-H.264 | 1920x1080 | 10 Mb/s 
-H.264 | 1280x720 | 5 Mb/s 
-HEVC | 1920x1080 | 6 Mb/s 
-HEVC | 1280x720 | 3 Mb/s 
+H.264 | 1920x1080 | 10 Mb/s
+H.264 | 1280x720 | 5 Mb/s
+HEVC | 1920x1080 | 6 Mb/s
+HEVC | 1280x720 | 3 Mb/s
 ProRes | Automatic
 
 #### Other requirements

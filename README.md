@@ -29,14 +29,20 @@ I went for the Dynamic Microphone route because my audio environment is not grea
 
 ## TASCAM Control Settings and Wiring
 
-- IN1 -> Microphone
-- +48V switch to Off (it means do not supply phantom power to the Microphone as some Mics need a power source)
-- IN1 Gain = Almost fully turned up as it is so good, it hardly flicks on the Red Peak indicator
-- MIC/Line = MIC (left position) because the Mic is not an Instrument with high impedence
-- IN2 settings ignored as it is not used
-- Monitor balance central = not used by me right now
-- Line Out central setting = not used by me right now
-- USB connector at the back = plugged into my iMac
+From reading the manual, [TASCAM US-2x2 USB Audio/MIDI Interface Reference Manual](./manuals/US-2x2_US-4x4_RM_vF.pdf)
+
+Port | Connection
+-- | --
+Front IN1 | Microphone
+Back USB | iMac 
+
+Control | Setting | Comment
+--- | --- | ---
+OFF/+48V |Off | It means do not supply phantom power to the Microphone as some Mics need a power source
+IN1 Gain | Almost fully turned up | It hardly flicks ON the Red Peak indicator so can be turned up high
+MIC/LINE INST | MIC/LINE (left position) |  The Mic is not an Instrument with high impedence
+Monitor Balance | central | Not used by me right now
+Line Out | Central Setting | Not used by me right now
 
 The TASCAM control panel software can be ignored because it just adjusts the experience for the monitor headphones connected to the MIDI box, not the computer signal.
 

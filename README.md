@@ -46,7 +46,7 @@ Control | Setting | Comment
 OFF/+48V |Off | It means do not supply phantom power to the Microphone as some Mics need a power source.
 IN1 Gain | Almost fully turned up | It hardly flicks ON the Red Peak indicator so can be turned up high.
 MIC/LINE INST | MIC/LINE (left position) |  Microphones are low-impedence, Instruments are high-impedence.
-Monitor Balance | central | Not used by me right now.
+Monitor Balance | Central Setting | Not used by me right now.
 Line Out | Central Setting | Not used by me right now.
 
 The TASCAM control panel software can be ignored because it just adjusts the experience for the monitor headphones connected to the MIDI box, not the computer signal.
@@ -67,3 +67,45 @@ The preferred option was to use the Record Microphone settings in the following 
 If that wasn't done, there is a quick way to fix it.  By using [Handbrake video transcription software](https://handbrake.fr) it is possible to use the same audio track twice.  So Track 0 feeds into Left Only ear, and Right Only ear.
 
 ![Handbrake Audio Settings](./handbrakeAudioSettings.png)
+
+## Video Requirements
+
+Udemy is the main place I want to post videos.  They have a [Video Specification](https://support.udemy.com/hc/en-us/articles/229232767-Video-Standards-and-Choosing-a-Camera) which is summarised as:
+
+### Udemy Video Specification
+
+#### Video settings
+
+Attribute | Setting | Comment
+--- | --- | ---
+Quality | Best | If available
+Codec | H.264, HEVC, ProRes 
+Resolution | 1920x1080 | Or better
+Minimum Resolution | 1280x720 | Resolutions lower are rejected
+Aspect Ratio | 16:9
+Picture Orientation | Landscape | Cannot be Portrait
+Framerate | 25 to 60 fps | Currently all outputs are resampled to 30 fps
+
+#### Audio settings
+
+Attribute | Setting
+--- | ---
+Audio Track | Required 
+Audio Codec | AAC (256 kb/s or better) or PCM
+Audio Channels | 2 (Stereo)
+
+#### Bitrate recommendations
+
+Format | Resolution | Rate 
+--- | ---
+H.264 | 1920x1080 | 10 Mb/s 
+H.264 | 1280x720 | 5 Mb/s 
+HEVC | 1920x1080 | 6 Mb/s 
+HEVC | 1280x720 | 3 Mb/s 
+ProRes | Automatic
+
+#### Other requirements
+
+- Multimedia Container: MP4 or MOV
+- Maximum File Size: 4 GB
+- Maximum Duration: 4 Hours
